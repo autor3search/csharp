@@ -142,6 +142,18 @@ dotnet test -c Release
 integration and end-to-end tests drive real builds and real benchmarks, which is the point
 of them and also why the suite is not quick.
 
+### Or install it as a skill
+
+The same prompt ships as an agent skill, in
+[`skills/autor3search-csharp`](skills/autor3search-csharp/SKILL.md). Install it once and ask your
+agent to make the repository faster; it loads the prompt itself.
+
+```sh
+mkdir -p ~/.claude/skills/autor3search-csharp
+curl -fsSL https://raw.githubusercontent.com/autor3search/csharp/main/skills/autor3search-csharp/SKILL.md \
+  -o ~/.claude/skills/autor3search-csharp/SKILL.md
+```
+
 ---
 
 ## The idea
