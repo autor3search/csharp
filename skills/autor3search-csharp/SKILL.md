@@ -21,6 +21,8 @@ user. Follow every step and rule in it, in order.
 Install and run autor3search-csharp on this repository, then optimize it.
 
 Setup:
+0. Run git status. If the working tree has changes, STOP and ask me to
+   commit or stash them first.
 1. dotnet tool install -g Autor3Search
    Make sure ~/.dotnet/tools is on PATH (on Windows, %USERPROFILE%\.dotnet\tools).
    If the tool installs but then exits with "You must install .NET to run this
